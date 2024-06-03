@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_maps.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_near_me_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_near_me_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_arrow_back_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_arrow_back_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_camera.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_round_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_round_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-hdpi_ic_finish_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-hdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xhdpi_ic_finish_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_round_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xhdpi_ic_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xhdpi/ic_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xhdpi_ic_photo_marker.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xhdpi/ic_photo_marker.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-mdpi_ic_photo_marker.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-mdpi/ic_photo_marker.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_splash.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_record.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_record.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-mdpi_ic_finish_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-mdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_white_rounded_shape.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/white_rounded_shape.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_app_logo.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/app_logo.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_start_trip.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_start_trip.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_close_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_close_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_settings.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxxhdpi_ic_finish_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxxhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_round_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/menu_drawer_menu.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxhdpi_ic_photo_marker.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxhdpi/ic_photo_marker.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_trip_place_1.jpg.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/trip_place_1.jpg"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-hdpi_ic_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-hdpi/ic_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_settings_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_settings_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_round_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_upload_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_upload_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_share_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_share_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/font_rubik.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/font/rubik.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_round_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_round_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_round_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxhdpi_ic_finish_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxhdpi/ic_finish_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_place_holder.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/place_holder.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_save_trip_dialog.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/save_trip_dialog.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxhdpi/ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_blue_rounded_shape.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/blue_rounded_shape.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-hdpi_ic_photo_marker.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-hdpi/ic_photo_marker.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/xml_file_paths.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxhdpi_ic_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxhdpi/ic_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxxhdpi_ic_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxxhdpi/ic_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_location_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_location_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_round_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_ic_search_round.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/ic_search_round.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_marker_photo_dialog.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/marker_photo_dialog.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-xxxhdpi_ic_photo_marker.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-xxxhdpi/ic_photo_marker.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/layout_trip_item.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/layout/trip_item.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable_trip_place_2.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable/trip_place_2.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_round_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_round_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_round_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_round_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/drawable-mdpi_ic_flag.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/drawable-mdpi/ic_flag.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round_monochrome.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_round_monochrome.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-mdpi_ic_launcher_round_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-mdpi/ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round_background.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xxxhdpi/ic_launcher_round_background.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.traveler.traveljournal.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "com.traveler.traveljournal.app-main-38:/mipmap-xhdpi/ic_launcher_round_foreground.png"
+    }
+]

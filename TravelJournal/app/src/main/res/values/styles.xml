@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainButtonStyle" parent="ThemeOverlay.Material3.Button">
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+    
+    <style name="rounded_corners">
+        <item name="cornerSize">15dp</item>
+    </style>
+</resources>

@@ -1,0 +1,422 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.traveler.traveljournal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission
+12-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:6:5-8:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:7:9-65
+14        android:maxSdkVersion="28" />
+14-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:8:9-35
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:10:22-76
+17
+18    <uses-feature
+18-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.camera"
+19-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:13:9-47
+20        android:required="false" />
+20-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:14:9-33
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+28
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
+35-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+36-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+40        android:name="com.traveler.traveljournal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.traveler.traveljournal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:16:5-85:19
+46        android:allowBackup="true"
+46-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:17:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] C:\Users\bouho\.gradle\caches\transforms-3\f3d51bfea696170ddff80dae282a5b7c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+48        android:dataExtractionRules="@xml/data_extraction_rules"
+48-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:18:9-65
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:fullBackupContent="@xml/backup_rules"
+51-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:19:9-54
+52        android:icon="@mipmap/ic_launcher"
+52-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:20:9-43
+53        android:label="@string/app_name"
+53-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:22:9-41
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:21:9-54
+55        android:supportsRtl="true"
+55-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:23:9-35
+56        android:testOnly="true"
+57        android:theme="@style/Theme.TravelJournal" >
+57-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:24:9-51
+58        <activity
+58-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:26:9-30:56
+59            android:name="com.traveler.traveljournal.ui.SettingsActivity"
+59-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:27:13-48
+60            android:exported="false"
+60-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:29:13-37
+61            android:screenOrientation="portrait" />
+61-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:28:13-49
+62
+63        <meta-data
+64            android:name="com.google.android.geo.API_KEY"
+64-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:33:13-58
+65            android:value="AIzaSyAV82hPUmM1_-FFAzuqquebi1Btbfe2iFc" />
+65-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:34:13-44
+66
+67        <activity
+67-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:36:9-39:59
+68            android:name="com.traveler.traveljournal.ui.MapsActivity"
+68-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:37:13-44
+69            android:exported="false"
+69-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:38:13-37
+70            android:label="@string/title_activity_maps" />
+70-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:39:13-56
+71        <activity
+71-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:40:9-44:56
+72            android:name="com.traveler.traveljournal.ui.StartTripActivity"
+72-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:41:13-49
+73            android:exported="false"
+73-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:42:13-37
+74            android:screenOrientation="portrait" />
+74-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:43:13-49
+75        <activity
+75-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:45:9-49:56
+76            android:name="com.traveler.traveljournal.ui.LoginActivity"
+76-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:46:13-45
+77            android:exported="false"
+77-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:47:13-37
+78            android:screenOrientation="portrait" />
+78-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:48:13-49
+79        <activity
+79-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:50:9-54:56
+80            android:name="com.traveler.traveljournal.ui.RegisterActivity"
+80-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:51:13-48
+81            android:exported="false"
+81-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:52:13-37
+82            android:screenOrientation="portrait" />
+82-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:53:13-49
+83        <activity
+83-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:55:9-65:20
+84            android:name="com.traveler.traveljournal.ui.SplashActivity"
+84-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:56:13-46
+85            android:exported="true"
+85-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:57:13-36
+86            android:screenOrientation="portrait" >
+86-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:58:13-49
+87            <intent-filter>
+87-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:60:13-64:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:61:17-69
+88-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:61:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:63:17-77
+90-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:63:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:66:9-70:56
+94            android:name="com.traveler.traveljournal.ui.MainActivity"
+94-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:67:13-44
+95            android:exported="true"
+95-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:68:13-36
+96            android:screenOrientation="portrait" />
+96-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:69:13-49
+97
+98        <meta-data
+98-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:72:9-74:57
+99            android:name="preloaded_fonts"
+99-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:73:13-43
+100            android:resource="@array/preloaded_fonts" />
+100-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:74:13-54
+101
+102        <provider
+103            android:name="androidx.core.content.FileProvider"
+103-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:77:13-62
+104            android:authorities="com.traveler.traveljournal.provider"
+104-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:78:13-60
+105            android:exported="false"
+105-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:79:13-37
+106            android:grantUriPermissions="true" >
+106-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:80:13-47
+107            <meta-data
+107-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:81:13-83:54
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:82:17-67
+109                android:resource="@xml/file_paths" />
+109-->C:\Users\bouho\Desktop\Carnet de voyage 2506\Android App Final Version 2406\TravelJournal\app\src\main\AndroidManifest.xml:83:17-51
+110        </provider>
+111
+112        <service
+112-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:9:13-84
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:10:13-37
+116            <meta-data
+116-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:11:13-13:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+117-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:12:17-116
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\d39e99be8c06a741dc3ae1ca7b1022a8\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:13:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\0dc173639090373bb887e62d1f4c5c22\transformed\firebase-firestore-ktx-24.6.0\AndroidManifest.xml:14:13-16:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+120-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\0dc173639090373bb887e62d1f4c5c22\transformed\firebase-firestore-ktx-24.6.0\AndroidManifest.xml:15:17-126
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\0dc173639090373bb887e62d1f4c5c22\transformed\firebase-firestore-ktx-24.6.0\AndroidManifest.xml:16:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\a57b1de5d28c0bdc55df0844de644a48\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+123                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+123-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\a57b1de5d28c0bdc55df0844de644a48\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\a57b1de5d28c0bdc55df0844de644a48\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\07bdd2827397fbdb06c43246af276d2c\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+129                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+129-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\07bdd2827397fbdb06c43246af276d2c\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\bouho\.gradle\caches\transforms-3\07bdd2827397fbdb06c43246af276d2c\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4619f4cc651b735cc6a6210092f5c644\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+132                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+132-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4619f4cc651b735cc6a6210092f5c644\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4619f4cc651b735cc6a6210092f5c644\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\4d69024de9d58e82185a1bcd882ae221\transformed\firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+135-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\4d69024de9d58e82185a1bcd882ae221\transformed\firebase-storage-20.2.0\AndroidManifest.xml:33:17-107
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\bouho\.gradle\caches\transforms-3\4d69024de9d58e82185a1bcd882ae221\transformed\firebase-storage-20.2.0\AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+138                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+138-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\bouho\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+141                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+141-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\bouho\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\bouho\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+143        </service> <!-- Needs to be explicitly declared on P+ -->
+144        <uses-library
+144-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+145            android:name="org.apache.http.legacy"
+145-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+146            android:required="false" />
+146-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\acef2a44a7e3301fa64384949a60f84f\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+147
+148        <activity
+148-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+149            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+149-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+155-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+157-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+158-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+159
+160                <data
+160-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+161                    android:host="firebase.auth"
+161-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+162                    android:path="/"
+162-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+163                    android:scheme="genericidp" />
+163-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+167            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+167-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+168            android:excludeFromRecents="true"
+168-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+169            android:exported="true"
+169-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+170            android:launchMode="singleTask"
+170-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+171-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+172            <intent-filter>
+172-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+173                <action android:name="android.intent.action.VIEW" />
+173-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+173-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+174
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+175-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+176                <category android:name="android.intent.category.BROWSABLE" />
+176-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+176-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+177
+178                <data
+178-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+179                    android:host="firebase.auth"
+179-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+180                    android:path="/"
+180-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+181                    android:scheme="recaptcha" />
+181-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\bouho\.gradle\caches\transforms-3\3111bfdce8b8d985f10d1b20314a4a75\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+182            </intent-filter>
+183        </activity>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+187            android:authorities="com.traveler.traveljournal.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:20.3.2] C:\Users\bouho\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+196
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\bouho\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\bouho\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+216
+217        <provider
+217-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+218            android:name="androidx.startup.InitializationProvider"
+218-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+219            android:authorities="com.traveler.traveljournal.androidx-startup"
+219-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+220            android:exported="false" >
+220-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+221            <meta-data
+221-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+222                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+223                android:value="androidx.startup" />
+223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bouho\.gradle\caches\transforms-3\2466eaf4a073dfa3aa7557bbe46f76f9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+224            <meta-data
+224-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bouho\.gradle\caches\transforms-3\5127f80b85867cccab87be3d3456a639\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+225                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+225-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bouho\.gradle\caches\transforms-3\5127f80b85867cccab87be3d3456a639\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+226                android:value="androidx.startup" />
+226-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bouho\.gradle\caches\transforms-3\5127f80b85867cccab87be3d3456a639\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+227        </provider>
+228    </application>
+229
+230</manifest>

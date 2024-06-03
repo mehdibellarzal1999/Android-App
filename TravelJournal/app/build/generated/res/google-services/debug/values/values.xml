@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">105575264980-fsg4g89krsc2bpgag4cngb0efg6ft4g6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">105575264980</string>
+    <string name="google_api_key" translatable="false">AIzaSyAc2g_68Kz2QGWP6sT0WNAO3cPI_Nzn20Y</string>
+    <string name="google_app_id" translatable="false">1:105575264980:android:142a9e5703f908dcf08141</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAc2g_68Kz2QGWP6sT0WNAO3cPI_Nzn20Y</string>
+    <string name="google_storage_bucket" translatable="false">carnet-de-voyage-8f743.appspot.com</string>
+    <string name="project_id" translatable="false">carnet-de-voyage-8f743</string>
+</resources>

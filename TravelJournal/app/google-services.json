@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105575264980",
+    "project_id": "carnet-de-voyage-8f743",
+    "storage_bucket": "carnet-de-voyage-8f743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105575264980:android:142a9e5703f908dcf08141",
+        "android_client_info": {
+          "package_name": "com.traveler.traveljournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105575264980-fsg4g89krsc2bpgag4cngb0efg6ft4g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc2g_68Kz2QGWP6sT0WNAO3cPI_Nzn20Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105575264980-fsg4g89krsc2bpgag4cngb0efg6ft4g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
